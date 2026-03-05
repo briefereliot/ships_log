@@ -1,0 +1,49 @@
+:root {
+    --map-width: 25rem;
+    --map-height: 37.5rem;
+    --log-width: 25rem;
+    --log-height: 37.5rem;
+    --body-flex: row;
+}
+
+@media screen and (width < 50rem) {
+    body {
+        --map-width: 95vw;
+        --map-height: 95vw;
+        --log-width: 95vw;
+        --log-height: 142.5vw;
+        --body-flex: column;
+    }
+}
+
+@media screen and (height < 40rem) {
+    body {
+        --map-width: 95vh;
+        --map-height: 95vh;
+        --log-width: calc(100vw - (95vh + 0.5rem));
+        --log-height: 95vh;
+        --body-flex: row;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: var(--body-flex);
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#map {
+    height : var(--map-height);
+    width : var(--map-width);
+    border-radius: 0.5rem;
+    border:2px solid black;
+}
+
+#log {
+    height : var(--log-height);
+    width : var(--log-width);
+    border-radius: 0.5rem;
+    border: 2px solid black;
+}
