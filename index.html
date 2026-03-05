@@ -11,13 +11,6 @@
 <body>
     <div id="map"></div>
     <div id="log"></div>
-    <script>
-        const testMap = L.map('map').setView([48.5023, -122.8463], 9);
-        const tiles = L.tileLayer('./tiles/{z}/{x}/{y}.png', {
-            maxZoom: 12,
-            minZoom: 7
-        }).addTo(testMap);
-    </script>
+    <script defer src="ships_log.js"></script>
 </body>
-<script defer src="ships_log.js" type="module"></script>
 </html>
