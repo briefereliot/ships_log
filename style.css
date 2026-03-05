@@ -6,7 +6,7 @@
     --body-flex: row;
 }
 
-@media screen and (width < 50rem) {
+@media screen and (width < 500px) {
     body {
         --map-width: 95vw;
         --map-height: 95vw;
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (height < 40rem) {
+@media screen and (height < 500px) {
     body {
         --map-width: 95vh;
         --map-height: 95vh;
