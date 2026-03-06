@@ -114,7 +114,8 @@ class StoryPoint {
 
         this.element.scrollIntoView({
             behavior: 'smooth',
-            block: 'start'
+            block: 'start',
+            container: 'nearest'
         })
 
         if(this.latlng) {
