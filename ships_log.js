@@ -113,7 +113,7 @@ class StoryPoint {
         this.marker._path.classList.add('selected');
 
         this.parent.scrollTo({
-            top: this.element.offsetTop,
+            top: this.element.offsetTop - this.parent.offsetTop,
             behavior: 'smooth'
         });
 
