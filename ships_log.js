@@ -68,15 +68,98 @@ async function loadBoatPath() {
         weight: 2,
         dashArray: '4 4'
     }).addTo(testMap);
+}
 
-    for(var i = 0; i < pinsArray.length; i++){
-        L.circleMarker(pinsArray[i], {
+loadBoatPath();
+
+class StoryPoint {
+    constructor(parent, map, params={}) {
+        this.parent = parent;
+        this.map = map;
+        this.text = params.text;
+        this.latlng = params.latlng;
+        this.date = params.date;
+        this.title = params.title;
+
+        //Create text elements
+        this.element = document.createElement('div');
+        this.heading = document.createElement('h2');
+        this.heading.textContent = this.title;
+        this.body = document.createElement('p');
+        this.body.textContent = this.text;
+        this.element.appendChild(this.heading);
+        this.element.appendChild(this.body);
+        this.parent.appendChild(this.element);
+
+        this.marker = undefined;
+        //Create map elements
+        if(this.latlng) {
+            this.marker = L.circleMarker(this.latlng, {
             color: 'red',
             fillOpacity: 0,
             radius: 4,
             weight: 3
-        }).addTo(testMap);
+        }).addTo(this.map);
+        }
+    }
+
+    select() {
+        const selectedElements = document.querySelectorAll('.selected');
+
+        selectedElements.forEach(element => {
+            element.classList.remove('selected');
+        });
+
+        this.marker._path.classList.add('selected');
+
+        this.element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+
+        if(this.latlng) {
+            this.map.panTo(this.latlng);
+        }
+        
     }
 }
 
-loadBoatPath();
+var testLog = document.getElementById("log");
+
+
+async function loadStoryPoints(callback) {
+    const pinsArray = await loadArrayFromJsonFile('2025_pins.json');
+    var output = [];
+    for(var i = 0; i < pinsArray.length; i++){
+        output.push(new StoryPoint(testLog, testMap, {
+            latlng: pinsArray[i],
+            title: `Test Entry ${i}`,
+            text: "I ate a lot of good food. It was yummy. yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada"
+        }));
+    }
+    return output;
+}
+
+var storyPoints = []; 
+loadStoryPoints().then((result) => {
+    storyPoints = result;
+    for(let i = 0; i < storyPoints.length; i++) {
+        setTimeout(() => {
+            console.log(i);
+            console.log(storyPoints[i]);
+            storyPoints[i].select();
+        }, i*2000);
+    }
+});
+
+/*const testStoryPoint = new StoryPoint(testLog, testMap, {
+    latlng: {
+        lat: 48.748945343432936,
+        lng: -122.8480911254883
+        },
+    title: "Test Entry",
+    text: "I ate a lot of good food. It was yummy. yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada"
+
+})
+
+testStoryPoint.select();*/

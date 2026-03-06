@@ -4,6 +4,7 @@
     --log-width: 25rem;
     --log-height: 37.5rem;
     --body-flex: row;
+    --buttons-flex: column;
 }
 
 @media screen and (width < 500px) {
@@ -13,6 +14,7 @@
         --log-width: 95vw;
         --log-height: 142.5vw;
         --body-flex: column;
+        --buttons-flex: row;
     }
 }
 
@@ -23,6 +25,7 @@
         --log-width: calc(100vw - (95vh + 0.5rem));
         --log-height: 95vh;
         --body-flex: row;
+        --buttons-flex: column
     }
 }
 
@@ -32,6 +35,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+}
+
+.selected {
+    stroke-width: 5px;
 }
 
 #map {
@@ -46,4 +53,25 @@ body {
     width : var(--log-width);
     border-radius: 0.5rem;
     border: 2px solid black;
+    overflow-y: auto;
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: var(--buttons-flex);
+    gap: 1rem;
+}
+
+#buttons > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    font-size: 20px;
 }
