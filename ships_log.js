@@ -112,11 +112,10 @@ class StoryPoint {
 
         this.marker._path.classList.add('selected');
 
-        this.element.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            container: 'nearest'
-        })
+        this.parent.scrollTo({
+            top: this.element.offsetTop,
+            behavior: 'smooth'
+        });
 
         if(this.latlng) {
             this.map.panTo(this.latlng);
