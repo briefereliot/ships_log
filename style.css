@@ -29,6 +29,13 @@
     }
 }
 
+html, body {
+    background-color: white;
+    transform: translateZ(0); /* Forces hardware acceleration */
+    will-change: transform;   /* Optimizes rendering for transformations */
+    overflow-x: hidden;       /* Prevents horizontal scrolling */
+  }
+
 body {
     display: flex;
     flex-direction: var(--body-flex);
@@ -41,11 +48,24 @@ body {
     stroke-width: 5px;
 }
 
+.leaflet-tile {
+    border: 1px solid transparent;
+    image-rendering: -webkit-optimize-contrast;
+}
+
 #map {
     height : var(--map-height);
     width : var(--map-width);
     border-radius: 0.5rem;
     border:2px solid black;
+}
+
+.log {
+    padding: 0.5rem
+}
+
+.log > h1 {
+    text-align: center;
 }
 
 #log {

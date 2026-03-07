@@ -1,0 +1,610 @@
+[
+    {
+        "latlng": {
+            "lat": 48.51205578443625,
+            "lng": -122.91915893554689
+        },
+        "title": "Leaving Lopez",
+        "text": "Much adventure awaits."
+    },
+    {
+        "latlng": {
+            "lat": 48.62042779241857,
+            "lng": -123.00498962402344
+        },
+        "title": "Deer Harbor",
+        "text": "Lots of good food and dogs with friends."
+    },
+    {
+        "latlng": {
+            "lat": 48.748945343432936,
+            "lng": -122.8480911254883
+        },
+        "title": "Matia Island State Park",
+        "text": "Tiny anchorage, big trees, wave sculpted sandstone."
+    },
+    {
+        "latlng": {
+            "lat": 48.72313217474122,
+            "lng": -122.51266479492189
+        },
+        "title": "Fairhaven",
+        "text": "Bellingham for a few days. Starting to get a feel of the boatlife. Stumbled upon the ski to sea afterparty in downtown Fairhaven."
+    },
+    {
+        "latlng": {
+            "lat": 48.511600905533584,
+            "lng": -122.60433197021486
+        },
+        "title": "Anacortes",
+        "text": "Quick stop in Anacortes. I don't trust anchoring in Fidalgo bay anymore, but I'm only there for one night and the weather is calm."
+    },
+    {
+        "latlng": {
+            "lat": 48.672826384100354,
+            "lng": -123.19278717041017
+        },
+        "title": "Stuart Island",
+        "text": "After a final stop on Lopez the adventure begins in earnest! Not much wind getting here, but still managed to sail some of the way. Amazing view of Mt. Baker on the way to the lighthouse at the northern end of the island. Next stop Canada!"
+    },
+    {
+        "latlng": {
+            "lat": 48.75030356411015,
+            "lng": -123.23673248291017
+        },
+        "title": "Canadian Customs and South Pender Island",
+        "text": "Good people watching at the customs dock: lots of clueless power-boaters making an absolute mess of docking. It's hot, and I made the poor decision to hike to the top of a steep hill in the middle of the afternoon. Good view towards Vancouver Island, but not quite worth the hike."
+    },
+    {
+        "latlng": {
+            "lat": 48.73468180970119,
+            "lng": -123.37337493896486
+        },
+        "title": "Portland Island",
+        "text": "Portland Island is all provincial park. Criss crossed with lovely overgrown trails and lots of rose bushed, madronas, and small oak trees. I managed my first stern tie ever in an extremely small and crowded anchorage and even managed to impress a few onlookers (It was all luck I promise). Raced two tall ships on the way here from South Pender Island, both under sail with many tourists onboard."
+    },
+    {
+        "latlng": {
+            "lat": 48.85432452980058,
+            "lng": -123.48255157470705
+        },
+        "title": "Ganges",
+        "text": "I didn't mean to sail all the way to Ganges today, but there was another sailboat with a drifter up, and we got into a bit of a race. They kept sailing, so I did too, and now I'm in Ganges. Ganges is a lot like Friday Harbor if it were a little bit more of a real town. There's hundered's of boats anchored in the harbor, half of them in various states of decay. I'm picking up my mom here in a few days, but I got here a day early do to the unexpected race."
+    },
+    {
+        "latlng": {
+            "lat": 48.843254301505475,
+            "lng": -123.40221405029298
+        },
+        "title": "Prevost Island",
+        "text": "Now that I've got a guest of course it rains. Not much to explore on the north end of Prevost... The state park is small and only has one real trail. But, I did see more starfish in one place than I've ever seen in my life."
+    },
+    {
+        "latlng": {
+            "lat": 48.90196633008333,
+            "lng": -123.41663360595705
+        },
+        "title": "Montague Harbour Provincial Park",
+        "text": "We made it all day without turning the engine on once. Left anchor under sail, and just managed to make it into the harbor and drop the anchor before the wind ran out. Of course when I went to turn the engine on to set the anchor the engine wouldn't start. My mom went ashore on a quest for icecream and to avoid my swearing at the engine. It turned out to be a faulty switch for the glow plugs. Now I have to take off the instrument panels and short out the glow plug leads with a screwdriver everytime I need to start the engine. I won't be able to get a replacement switch until Nanaimo. Montague harbor looks like a tropical paradise: bright white oystershell beaches ring the peninsula and huge madrona trees twist wildly from the forest canopy, lending a jungly feel."
+    },
+    {
+        "latlng": {
+            "lat": 48.94482770695495,
+            "lng": -123.55808258056642
+        },
+        "title": "Entry 12",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.09792498911949,
+            "lng": -123.73111724853517
+        },
+        "title": "Entry 13",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.17317480149248,
+            "lng": -123.92990112304689
+        },
+        "title": "Entry 14",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.28930640196742,
+            "lng": -123.25561523437501
+        },
+        "title": "Entry 15",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.28572341105575,
+            "lng": -123.14575195312501
+        },
+        "title": "Entry 16",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.40270760420338,
+            "lng": -123.47808837890626
+        },
+        "title": "Entry 17",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.516293312888486,
+            "lng": -123.96732330322267
+        },
+        "title": "Entry 18",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.50759959460009,
+            "lng": -124.21485900878906
+        },
+        "title": "Entry 19",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.73024943547763,
+            "lng": -124.20627593994142
+        },
+        "title": "Entry 20",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 49.83421805732244,
+            "lng": -124.52590942382814
+        },
+        "title": "Entry 21",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.00354651815617,
+            "lng": -124.80056762695314
+        },
+        "title": "Entry 22",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.13950550423831,
+            "lng": -124.69688415527345
+        },
+        "title": "Entry 23",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.43192365031358,
+            "lng": -124.66426849365236
+        },
+        "title": "Entry 24",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.265862728873266,
+            "lng": -124.79953765869142
+        },
+        "title": "Entry 25",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.10340490646115,
+            "lng": -125.19607543945314
+        },
+        "title": "Entry 26",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.10714830640462,
+            "lng": -125.21289825439455
+        },
+        "title": "Entry 27",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.273323813984256,
+            "lng": -125.23006439208986
+        },
+        "title": "Entry 28",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.324861119106465,
+            "lng": -125.44773101806642
+        },
+        "title": "Entry 29",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.33647671038328,
+            "lng": -125.42713165283205
+        },
+        "title": "Entry 30",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.45990830140095,
+            "lng": -125.36464691162111
+        },
+        "title": "Entry 31",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.441326589986524,
+            "lng": -125.46798706054689
+        },
+        "title": "Entry 32",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.48197825997291,
+            "lng": -125.74951171875001
+        },
+        "title": "Entry 33",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.59805794433924,
+            "lng": -127.08709716796876
+        },
+        "title": "Entry 34",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.84757295365389,
+            "lng": -127.59761810302736
+        },
+        "title": "Entry 35",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.06362288384342,
+            "lng": -127.59693145751955
+        },
+        "title": "Entry 36",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.23763173808256,
+            "lng": -127.78026580810548
+        },
+        "title": "Entry 37",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.57536261053028,
+            "lng": -127.58937835693361
+        },
+        "title": "Entry 38",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.502545246638114,
+            "lng": -127.73563385009766
+        },
+        "title": "Entry 39",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.63783698714167,
+            "lng": -127.7593231201172
+        },
+        "title": "Entry 40",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 51.70639570969774,
+            "lng": -127.87845611572267
+        },
+        "title": "Entry 41",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.03749825311274,
+            "lng": -127.95501708984376
+        },
+        "title": "Entry 42",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.16614072179848,
+            "lng": -128.14041137695315
+        },
+        "title": "Entry 43",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.1526612269682,
+            "lng": -128.09028625488284
+        },
+        "title": "Entry 44",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.30931825948968,
+            "lng": -128.19396972656253
+        },
+        "title": "Entry 45",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.411424959685,
+            "lng": -128.42021942138675
+        },
+        "title": "Entry 46",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 52.5857376651135,
+            "lng": -128.5163497924805
+        },
+        "title": "Entry 47",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.01230462221248,
+            "lng": -128.5105133056641
+        },
+        "title": "Entry 48",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.21877968333416,
+            "lng": -128.67118835449222
+        },
+        "title": "Entry 49",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.395817978477204,
+            "lng": -129.28470611572268
+        },
+        "title": "Entry 50",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.559073254140415,
+            "lng": -129.56966400146487
+        },
+        "title": "Entry 51",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.69589339745182,
+            "lng": -129.73754882812503
+        },
+        "title": "Entry 52",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.72352923456916,
+            "lng": -129.8618316650391
+        },
+        "title": "Entry 53",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 53.8626510902358,
+            "lng": -130.0273132324219
+        },
+        "title": "Entry 54",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.02249481009678,
+            "lng": -130.25356292724612
+        },
+        "title": "Entry 55",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.33194056834371,
+            "lng": -130.34454345703128
+        },
+        "title": "Entry 56",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.31752454089308,
+            "lng": -130.32737731933597
+        },
+        "title": "Entry 57",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.32553406877724,
+            "lng": -130.39810180664065
+        },
+        "title": "Entry 58",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.596334479736115,
+            "lng": -130.8670806884766
+        },
+        "title": "Entry 59",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 54.96500166110205,
+            "lng": -130.9553146362305
+        },
+        "title": "Entry 60",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.34105610154684,
+            "lng": -131.64882659912112
+        },
+        "title": "Entry 61",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.49558246380929,
+            "lng": -131.8125915527344
+        },
+        "title": "Entry 62",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.48974757273688,
+            "lng": -131.8668365478516
+        },
+        "title": "Entry 63",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.74160767493425,
+            "lng": -132.25822448730472
+        },
+        "title": "Entry 64",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.9680343620409,
+            "lng": -132.44087219238284
+        },
+        "title": "Entry 65",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.09847074011337,
+            "lng": -132.69355773925784
+        },
+        "title": "Entry 66",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.20632206765915,
+            "lng": -132.92324066162112
+        },
+        "title": "Entry 67",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.47386957334178,
+            "lng": -133.00186157226565
+        },
+        "title": "Entry 68",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.536393627711504,
+            "lng": -132.98400878906253
+        },
+        "title": "Entry 69",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.811404079015695,
+            "lng": -132.96409606933597
+        },
+        "title": "Entry 70",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.774927197610175,
+            "lng": -132.5047302246094
+        },
+        "title": "Entry 71",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.6898021245771,
+            "lng": -132.68257141113284
+        },
+        "title": "Entry 72",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 57.02354189750431,
+            "lng": -132.84942626953128
+        },
+        "title": "Entry 73",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 57.07582830730453,
+            "lng": -132.80788421630862
+        },
+        "title": "Entry 74",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.89925390472826,
+            "lng": -132.94315338134768
+        },
+        "title": "Entry 75",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 56.77662020891577,
+            "lng": -132.96993255615237
+        },
+        "title": "Entry 76",
+        "text": ""
+    }
+]
