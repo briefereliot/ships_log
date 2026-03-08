@@ -44,13 +44,25 @@ body {
     gap: 0.5rem;
 }
 
-.selected {
-    stroke-width: 5px;
+p {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.leaflet-tile {
-    border: 1px solid transparent;
-    image-rendering: -webkit-optimize-contrast;
+.hide-scrollbar {
+  /* For Internet Explorer and Edge */
+  -ms-overflow-style: none;
+  /* For Firefox */
+  scrollbar-width: none;
+  /* For Chrome, Safari, and Opera (WebKit browsers) */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.selected {
+    stroke-width: 5px;
 }
 
 #map {
@@ -60,12 +72,22 @@ body {
     border:2px solid black;
 }
 
-.log {
-    padding: 0.5rem
+.story-point {
+    display: flex;
+    flex-direction: column;
 }
 
-.log > h1 {
-    text-align: center;
+.log {
+    padding: 0.5rem;
+    padding-bottom:100vh;
+}
+
+.story-point > h2 {
+    margin-bottom: 0;
+}
+
+.story-point > p {
+    margin-top: 0;
 }
 
 #log {

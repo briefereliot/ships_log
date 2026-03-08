@@ -85,6 +85,7 @@ class StoryPoint {
 
         //Create text elements
         this.element = document.createElement('div');
+        this.element.classList.add('story-point');
         this.heading = document.createElement('h2');
         this.heading.textContent = this.title;
         this.body = document.createElement('p');
@@ -120,7 +121,25 @@ class StoryPoint {
         });
 
         if(this.latlng) {
-            this.map.panTo(this.latlng);
+            const currentLatlng = this.map.getCenter();
+            const bounds = L.latLngBounds([currentLatlng, this.latlng]);
+            const currentZoom = Math.ceil(this.map.getZoom());
+
+            //zoom and pan to show old point and new point
+            console.log(bounds);
+            this.map.fitBounds(bounds, {
+                padding: [50,50],
+                animate: true,
+                duration: 0.5,
+                zoomSnap: 1
+            })
+
+            //zoom and pan to new point
+            this.map.flyTo(this.latlng, currentZoom, {
+                animate: true,
+                duration: 0.5,
+                zoomSnap: 1
+            })
         }
         
     }
@@ -128,52 +147,48 @@ class StoryPoint {
 
 //Scrolling div for story points
 class Log {
-    constructor(parent, map, scrollResolution = 10) {
+    constructor(parent, map) {
         this.parent = parent;
         this.map = map;
-        this.scrollResolution = scrollResolution;
         this.element = document.createElement('div');
         this.element.classList.add('log')
         this.storyPoints = [];
-        this.scrollMap = [];
         this.parent.appendChild(this.element);
-        this.parent.addEventListener("scroll", () => {
-            this.#scrollEventCallback();
-        });
+
+        //Used for auto scrolling map location to storyPoints
+        this.observer = new IntersectionObserver((entries, observer) => {
+            this.#intersectionObserverCallBack(entries, observer);
+        }, {
+            root: this.parent,
+            rootMargin: "0px 0px -95% 0px",
+        })
     }
 
-    addStoryPoint(storyPoint, index = undefined) {
-        if(index) {
-            this.storyPoints.splice(index, 0, storyPoint);
-            this.element.insertBefore(this.element.children[index], storyPoint.element)
+    addStoryPoint(storyPoint, i = undefined) {
+        if(i) {
+            storyPoint.element.dataset.index = i; //store the index of the StoryPoint object with its DOM element for use in event callbacks
+            this.storyPoints.splice(i, 0, storyPoint);
+            this.element.insertBefore(this.element.children[i], storyPoint.element)
+
+            for (const point of this.storyPoints.slice(i+1)) { //update the indexes of every element after the inserted element
+                point.element.dataset.index += 1;
+            }
         } else {
+            console.log(storyPoint);
+            storyPoint.element.dataset.index = this.storyPoints.length; //store the index of the StoryPoint object with its DOM element for use in event callbacks
             this.storyPoints.push(storyPoint);
             this.element.appendChild(storyPoint.element);
-        }
-
-        this.#computeScrollMap()
-    }
-
-    //relates scroll position to map position
-    //scroll map is an array of length parentHeight / scrollResolution [storyPoint, storyPoint, ...]
-    #computeScrollMap() {
-        const totalHeight = this.element.scrollHeight;
-        console.log(totalHeight);
-        this.scrollMap = new Array(Math.floor(totalHeight / this.scrollResolution)).fill(undefined);
-        for(let i = 0; i < this.storyPoints.length; i++) {
-            const topIndex = Math.floor(this.storyPoints[i].element.offsetTop / this.scrollResolution);
-            const bottomIndex = Math.floor((this.storyPoints[i].element.offsetTop + this.storyPoints[i].element.offsetHeight) / this.scrollResolution);
-            console.log([topIndex, bottomIndex]);
-            this.scrollMap.fill(this.storyPoints[i], topIndex, bottomIndex);
+            this.observer.observe(storyPoint.element);
         }
     }
 
-    #scrollEventCallback() {
-        const i = Math.floor(this.parent.scrollTop / this.scrollResolution);
-        const storyPoint = this.scrollMap[i];
-        console.log(this.scrollMap);
-        if(storyPoint) {
-            storyPoint.select();
+    #intersectionObserverCallBack(entries, observer) {
+        for (const entry of entries) {
+            if (entry.isIntersecting) {
+                let index = entry.target.dataset.index; //Retrieve the corresponding StoryPoint object index from the DOM element
+                this.storyPoints[index].select(); //Select and scroll to the corresponding StoryPoint on the map
+                break;
+            }
         }
     }
 }
@@ -194,28 +209,6 @@ async function loadStoryPoints(log) {
     return output;
 }
 
-const log = new Log(testLog, testMap, 10);
+const log = new Log(testLog, testMap);
 var storyPoints = []; 
-loadStoryPoints(log).then((result) => {
-    /*storyPoints = result;
-    for(let i = 0; i < storyPoints.length; i++) {
-        log.addStoryPoint(storyPoints[i]);
-        /*setTimeout(() => {
-            console.log(i);
-            console.log(storyPoints[i]);
-            storyPoints[i].select();
-        }, i*2000);
-    }*/
-});
-
-/*const testStoryPoint = new StoryPoint(testLog, testMap, {
-    latlng: {
-        lat: 48.748945343432936,
-        lng: -122.8480911254883
-        },
-    title: "Test Entry",
-    text: "I ate a lot of good food. It was yummy. yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada"
-
-})
-
-testStoryPoint.select();*/
+loadStoryPoints(log);

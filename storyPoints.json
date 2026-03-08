@@ -92,15 +92,15 @@
             "lat": 48.94482770695495,
             "lng": -123.55808258056642
         },
-        "title": "Entry 12",
-        "text": ""
+        "title": "Wallace Island",
+        "text": "Wallace Island is long and thin and covered in madrona trees. There's two tiny bays that make good anchorages, both with numerous submerged rocks at their entrance that make getting in and out difficult. I was glad to have a second set of eye's on the boy looking out for rocks. A trail runs the entire length of the island, and according to the \"road\" signs there's about a hundred different things to see. Whoever made the signs had a generous defenition of what constituted a landmark though, because we mostly saw a lot of trees and rocks and deer (and an armada of baby otters). We stayed two nights, which gave me time to jurry rig a sail for the dinghy out of a blue tarp and some wood I bought in Ganges. We also figured that the dinghy made a decent standup paddleboard if we stuck one oar off the stern to keep it from turning too quickly."
     },
     {
         "latlng": {
             "lat": 49.09792498911949,
             "lng": -123.73111724853517
         },
-        "title": "Entry 13",
+        "title": "Pirate Cove",
         "text": ""
     },
     {
@@ -108,15 +108,7 @@
             "lat": 49.17317480149248,
             "lng": -123.92990112304689
         },
-        "title": "Entry 14",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 49.28930640196742,
-            "lng": -123.25561523437501
-        },
-        "title": "Entry 15",
+        "title": "Nanaimo, and the Duckling Gets its Wings",
         "text": ""
     },
     {
@@ -124,7 +116,7 @@
             "lat": 49.28572341105575,
             "lng": -123.14575195312501
         },
-        "title": "Entry 16",
+        "title": "The Big City",
         "text": ""
     },
     {
@@ -132,7 +124,7 @@
             "lat": 49.40270760420338,
             "lng": -123.47808837890626
         },
-        "title": "Entry 17",
+        "title": "Plumber Cove Provincial Park",
         "text": ""
     },
     {
@@ -140,7 +132,7 @@
             "lat": 49.516293312888486,
             "lng": -123.96732330322267
         },
-        "title": "Entry 18",
+        "title": "Smuggler Cove",
         "text": ""
     },
     {
@@ -148,7 +140,7 @@
             "lat": 49.50759959460009,
             "lng": -124.21485900878906
         },
-        "title": "Entry 19",
+        "title": "Looking For Sheep on Jedediah",
         "text": ""
     },
     {
@@ -156,7 +148,7 @@
             "lat": 49.73024943547763,
             "lng": -124.20627593994142
         },
-        "title": "Entry 20",
+        "title": "The Mysterious Case of the Missing Park on Hardy Island",
         "text": ""
     },
     {
@@ -164,7 +156,7 @@
             "lat": 49.83421805732244,
             "lng": -124.52590942382814
         },
-        "title": "Entry 21",
+        "title": "The End of the Road and a Crew Change",
         "text": ""
     },
     {
@@ -172,7 +164,7 @@
             "lat": 50.00354651815617,
             "lng": -124.80056762695314
         },
-        "title": "Entry 22",
+        "title": "A Rocky Start to a New Leg",
         "text": ""
     },
     {
@@ -180,7 +172,7 @@
             "lat": 50.13950550423831,
             "lng": -124.69688415527345
         },
-        "title": "Entry 23",
+        "title": "Desolation, or Paradise?",
         "text": ""
     },
     {
@@ -188,7 +180,7 @@
             "lat": 50.43192365031358,
             "lng": -124.66426849365236
         },
-        "title": "Entry 24",
+        "title": "Waterfalls, Fjords, and a Bump in the Night.",
         "text": ""
     },
     {
@@ -196,7 +188,7 @@
             "lat": 50.265862728873266,
             "lng": -124.79953765869142
         },
-        "title": "Entry 25",
+        "title": "The Tropics Come To Canada",
         "text": ""
     },
     {
@@ -204,7 +196,7 @@
             "lat": 50.10340490646115,
             "lng": -125.19607543945314
         },
-        "title": "Entry 26",
+        "title": "Rebecca Spit Marine Park",
         "text": ""
     },
     {
@@ -212,7 +204,7 @@
             "lat": 50.10714830640462,
             "lng": -125.21289825439455
         },
-        "title": "Entry 27",
+        "title": "Our Anchoring Misadventures Get Worse",
         "text": ""
     },
     {
@@ -220,7 +212,7 @@
             "lat": 50.273323813984256,
             "lng": -125.23006439208986
         },
-        "title": "Entry 28",
+        "title": "UFO's and an Unexpected Lake",
         "text": ""
     },
     {
@@ -228,7 +220,7 @@
             "lat": 50.324861119106465,
             "lng": -125.44773101806642
         },
-        "title": "Entry 29",
+        "title": "Abandoning My Crew in The Woods",
         "text": ""
     },
     {
@@ -236,7 +228,7 @@
             "lat": 50.33647671038328,
             "lng": -125.42713165283205
         },
-        "title": "Entry 30",
+        "title": "Johnstone Strait Says Hello",
         "text": ""
     },
     {
@@ -244,15 +236,7 @@
             "lat": 50.45990830140095,
             "lng": -125.36464691162111
         },
-        "title": "Entry 31",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 50.441326589986524,
-            "lng": -125.46798706054689
-        },
-        "title": "Entry 32",
+        "title": "Thank God the Anchor Held",
         "text": ""
     },
     {
@@ -260,7 +244,7 @@
             "lat": 50.48197825997291,
             "lng": -125.74951171875001
         },
-        "title": "Entry 33",
+        "title": "Finding a Seamonster",
         "text": ""
     },
     {
@@ -268,7 +252,15 @@
             "lat": 50.59805794433924,
             "lng": -127.08709716796876
         },
-        "title": "Entry 34",
+        "title": "Johnstone Strait and the Longest Day",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.59805794433924,
+            "lng": -127.08709716796876
+        },
+        "title": "Tristin Joins the Crew",
         "text": ""
     },
     {
@@ -276,7 +268,15 @@
             "lat": 50.84757295365389,
             "lng": -127.59761810302736
         },
-        "title": "Entry 35",
+        "title": "The Boat Takes a Beating",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 50.84757295365389,
+            "lng": -127.59761810302736
+        },
+        "title": "Squeezing in to God's Pocket",
         "text": ""
     },
     {
@@ -284,7 +284,7 @@
             "lat": 51.06362288384342,
             "lng": -127.59693145751955
         },
-        "title": "Entry 36",
+        "title": "The Duckling Meets Tidal Rapids on Bramham Island",
         "text": ""
     },
     {
@@ -292,7 +292,7 @@
             "lat": 51.23763173808256,
             "lng": -127.78026580810548
         },
-        "title": "Entry 37",
+        "title": "Rounding Cape Caution, and Into the Wilderness",
         "text": ""
     },
     {
@@ -300,7 +300,7 @@
             "lat": 51.57536261053028,
             "lng": -127.58937835693361
         },
-        "title": "Entry 38",
+        "title": "How to Lose a Lot of Money",
         "text": ""
     },
     {
@@ -308,7 +308,7 @@
             "lat": 51.502545246638114,
             "lng": -127.73563385009766
         },
-        "title": "Entry 39",
+        "title": "Bears, Bears, Everywhere",
         "text": ""
     },
     {
@@ -316,7 +316,7 @@
             "lat": 51.63783698714167,
             "lng": -127.7593231201172
         },
-        "title": "Entry 40",
+        "title": "A Dinghy Adventure",
         "text": ""
     },
     {
@@ -324,7 +324,7 @@
             "lat": 51.70639570969774,
             "lng": -127.87845611572267
         },
-        "title": "Entry 41",
+        "title": "The Long Way to Bella Bella",
         "text": ""
     },
     {
@@ -332,7 +332,7 @@
             "lat": 52.03749825311274,
             "lng": -127.95501708984376
         },
-        "title": "Entry 42",
+        "title": "\"Not a Good Day for Sailing\"",
         "text": ""
     },
     {
@@ -340,7 +340,7 @@
             "lat": 52.16614072179848,
             "lng": -128.14041137695315
         },
-        "title": "Entry 43",
+        "title": "Confusion and Ghost Stories in Bella Bella",
         "text": ""
     },
     {
@@ -348,7 +348,7 @@
             "lat": 52.1526612269682,
             "lng": -128.09028625488284
         },
-        "title": "Entry 44",
+        "title": "Oops, We Should Have Gone to Sherwater",
         "text": ""
     },
     {
@@ -356,7 +356,7 @@
             "lat": 52.30931825948968,
             "lng": -128.19396972656253
         },
-        "title": "Entry 45",
+        "title": "Surviving a Tsunami",
         "text": ""
     },
     {
@@ -364,7 +364,7 @@
             "lat": 52.411424959685,
             "lng": -128.42021942138675
         },
-        "title": "Entry 46",
+        "title": "Big Swell for a Little Boat",
         "text": ""
     },
     {
@@ -372,7 +372,7 @@
             "lat": 52.5857376651135,
             "lng": -128.5163497924805
         },
-        "title": "Entry 47",
+        "title": "Klemtu: the Last Civilization",
         "text": ""
     },
     {
@@ -380,7 +380,7 @@
             "lat": 53.01230462221248,
             "lng": -128.5105133056641
         },
-        "title": "Entry 48",
+        "title": "Waterfalls and Abandoned Ruins",
         "text": ""
     },
     {
@@ -388,7 +388,7 @@
             "lat": 53.21877968333416,
             "lng": -128.67118835449222
         },
-        "title": "Entry 49",
+        "title": "In Search of Hot Springs",
         "text": ""
     },
     {
@@ -396,7 +396,7 @@
             "lat": 53.395817978477204,
             "lng": -129.28470611572268
         },
-        "title": "Entry 50",
+        "title": "Halfway to Prince Rupert",
         "text": ""
     },
     {
@@ -404,7 +404,7 @@
             "lat": 53.559073254140415,
             "lng": -129.56966400146487
         },
-        "title": "Entry 51",
+        "title": "Verney Falls",
         "text": ""
     },
     {
@@ -412,15 +412,7 @@
             "lat": 53.69589339745182,
             "lng": -129.73754882812503
         },
-        "title": "Entry 52",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 53.72352923456916,
-            "lng": -129.8618316650391
-        },
-        "title": "Entry 53",
+        "title": "On the Strait and Narrow",
         "text": ""
     },
     {
@@ -428,7 +420,7 @@
             "lat": 53.8626510902358,
             "lng": -130.0273132324219
         },
-        "title": "Entry 54",
+        "title": "Fog and Underwater Suprises",
         "text": ""
     },
     {
@@ -436,7 +428,7 @@
             "lat": 54.02249481009678,
             "lng": -130.25356292724612
         },
-        "title": "Entry 55",
+        "title": "I Can Practically Taste a Shower",
         "text": ""
     },
     {
@@ -444,7 +436,7 @@
             "lat": 54.33194056834371,
             "lng": -130.34454345703128
         },
-        "title": "Entry 56",
+        "title": "\"Sorry, We're Full\"",
         "text": ""
     },
     {
@@ -452,7 +444,7 @@
             "lat": 54.31752454089308,
             "lng": -130.32737731933597
         },
-        "title": "Entry 57",
+        "title": "Prince Rupert, at Last",
         "text": ""
     },
     {
@@ -460,7 +452,7 @@
             "lat": 54.32553406877724,
             "lng": -130.39810180664065
         },
-        "title": "Entry 58",
+        "title": "A Bouncy Night",
         "text": ""
     },
     {
@@ -468,7 +460,7 @@
             "lat": 54.596334479736115,
             "lng": -130.8670806884766
         },
-        "title": "Entry 59",
+        "title": "Farwell, Canada",
         "text": ""
     },
     {
@@ -476,7 +468,7 @@
             "lat": 54.96500166110205,
             "lng": -130.9553146362305
         },
-        "title": "Entry 60",
+        "title": "Hello, Alaska!",
         "text": ""
     },
     {
@@ -484,7 +476,15 @@
             "lat": 55.34105610154684,
             "lng": -131.64882659912112
         },
-        "title": "Entry 61",
+        "title": "Catch Me if You Can (They Can)",
+        "text": ""
+    },
+    {
+        "latlng": {
+            "lat": 55.34105610154684,
+            "lng": -131.64882659912112
+        },
+        "title": "Heat, and a Familiar Face",
         "text": ""
     },
     {
@@ -492,15 +492,7 @@
             "lat": 55.49558246380929,
             "lng": -131.8125915527344
         },
-        "title": "Entry 62",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 55.48974757273688,
-            "lng": -131.8668365478516
-        },
-        "title": "Entry 63",
+        "title": "\"The Weather in Southeast Alaska is Awful\"",
         "text": ""
     },
     {
@@ -508,7 +500,7 @@
             "lat": 55.74160767493425,
             "lng": -132.25822448730472
         },
-        "title": "Entry 64",
+        "title": "Cinnamon Rolls in Meyers Chuck",
         "text": ""
     },
     {
@@ -516,15 +508,7 @@
             "lat": 55.9680343620409,
             "lng": -132.44087219238284
         },
-        "title": "Entry 65",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 56.09847074011337,
-            "lng": -132.69355773925784
-        },
-        "title": "Entry 66",
+        "title": "Six Tacks a Day",
         "text": ""
     },
     {
@@ -532,15 +516,7 @@
             "lat": 56.20632206765915,
             "lng": -132.92324066162112
         },
-        "title": "Entry 67",
-        "text": ""
-    },
-    {
-        "latlng": {
-            "lat": 56.47386957334178,
-            "lng": -133.00186157226565
-        },
-        "title": "Entry 68",
+        "title": "Paradise, Trashed",
         "text": ""
     },
     {
@@ -548,7 +524,7 @@
             "lat": 56.536393627711504,
             "lng": -132.98400878906253
         },
-        "title": "Entry 69",
+        "title": "Entering Wrangle Narrows",
         "text": ""
     },
     {
@@ -556,7 +532,7 @@
             "lat": 56.811404079015695,
             "lng": -132.96409606933597
         },
-        "title": "Entry 70",
+        "title": "Three Months to Get to Petersburg!",
         "text": ""
     },
     {
@@ -564,7 +540,7 @@
             "lat": 56.774927197610175,
             "lng": -132.5047302246094
         },
-        "title": "Entry 71",
+        "title": "Life is About Sailing Between Icebergs",
         "text": ""
     },
     {
@@ -572,7 +548,7 @@
             "lat": 56.6898021245771,
             "lng": -132.68257141113284
         },
-        "title": "Entry 72",
+        "title": "In Appreciation of the Muskeg Bog",
         "text": ""
     },
     {
@@ -580,7 +556,7 @@
             "lat": 57.02354189750431,
             "lng": -132.84942626953128
         },
-        "title": "Entry 73",
+        "title": "One Last Anchoring Misadventure",
         "text": ""
     },
     {
@@ -588,7 +564,7 @@
             "lat": 57.07582830730453,
             "lng": -132.80788421630862
         },
-        "title": "Entry 74",
+        "title": "Row, Row, Row Your Boat, Violently to the Glacier",
         "text": ""
     },
     {
@@ -596,7 +572,7 @@
             "lat": 56.89925390472826,
             "lng": -132.94315338134768
         },
-        "title": "Entry 75",
+        "title": "This is It",
         "text": ""
     },
     {
@@ -604,7 +580,7 @@
             "lat": 56.77662020891577,
             "lng": -132.96993255615237
         },
-        "title": "Entry 76",
+        "title": "That's All (For Now) Folks!",
         "text": ""
     }
 ]
