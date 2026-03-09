@@ -69,7 +69,7 @@
             "lng": -123.48255157470705
         },
         "title": "Ganges",
-        "text": "I didn't mean to sail all the way to Ganges today, but there was another sailboat with a drifter up, and we got into a bit of a race. They kept sailing, so I did too, and now I'm in Ganges. Ganges is a lot like Friday Harbor if it were a little bit more of a real town. There's hundered's of boats anchored in the harbor, half of them in various states of decay. I'm picking up my mom here in a few days, but I got here a day early do to the unexpected race."
+        "text": "I didn't mean to sail all the way to Ganges today, but there was another sailboat with a drifter up, and we got into a bit of a race. They kept sailing, so I did too, and now I'm in Ganges. Ganges is a lot like Friday Harbor if it were a little bit more of a real town. There's hundered's of boats anchored in the harbor, half of them in various states of decay. I'm picking up my mom here in a few days, but I got here a day early due to the unexpected race."
     },
     {
         "latlng": {
@@ -85,7 +85,7 @@
             "lng": -123.41663360595705
         },
         "title": "Montague Harbour Provincial Park",
-        "text": "We made it all day without turning the engine on once. Left anchor under sail, and just managed to make it into the harbor and drop the anchor before the wind ran out. Of course when I went to turn the engine on to set the anchor the engine wouldn't start. My mom went ashore on a quest for icecream and to avoid my swearing at the engine. It turned out to be a faulty switch for the glow plugs. Now I have to take off the instrument panels and short out the glow plug leads with a screwdriver everytime I need to start the engine. I won't be able to get a replacement switch until Nanaimo. Montague harbor looks like a tropical paradise: bright white oystershell beaches ring the peninsula and huge madrona trees twist wildly from the forest canopy, lending a jungly feel."
+        "text": "We made it all day without turning the engine on once. Left anchor under sail, and just managed to make it into the harbor and drop the anchor before the wind ran out. Of course when I went to turn the engine on to set the anchor the engine wouldn't start. My mom went ashore on a quest for icecream and to avoid my swearing at the engine. It turned out to be a faulty switch for the glow plugs. Now I have to take off the instrument panel and short out the glow plug leads with a screwdriver everytime I need to start the engine. I won't be able to get a replacement switch until Nanaimo. Montague harbor looks like a tropical paradise: bright white oystershell beaches ring the peninsula and huge madrona trees twist wildly from the forest canopy, lending a jungly feel."
     },
     {
         "latlng": {
@@ -93,7 +93,7 @@
             "lng": -123.55808258056642
         },
         "title": "Wallace Island",
-        "text": "Wallace Island is long and thin and covered in madrona trees. There's two tiny bays that make good anchorages, both with numerous submerged rocks at their entrance that make getting in and out difficult. I was glad to have a second set of eye's on the boy looking out for rocks. A trail runs the entire length of the island, and according to the \"road\" signs there's about a hundred different things to see. Whoever made the signs had a generous defenition of what constituted a landmark though, because we mostly saw a lot of trees and rocks and deer (and an armada of baby otters). We stayed two nights, which gave me time to jurry rig a sail for the dinghy out of a blue tarp and some wood I bought in Ganges. We also figured that the dinghy made a decent standup paddleboard if we stuck one oar off the stern to keep it from turning too quickly."
+        "text": "Wallace Island is long and thin and covered in madrona trees. There's two tiny bays that make good anchorages, both with numerous submerged rocks at their entrance that make getting in and out difficult. I was glad to have a second set of eye's on the bow looking out for rocks. A trail runs the entire length of the island, and according to the \"road\" signs there's about a hundred different things to see. Whoever made the signs had a generous defenition of what constituted a landmark though, because we mostly saw a lot of trees and rocks and deer (and an armada of baby otters). We stayed two nights, which gave me time to jurry rig a sail for the dinghy out of a blue tarp and some wood I bought in Ganges. We also figured out that the dinghy made a decent standup paddleboard if we stuck one oar off the stern to keep it from turning too quickly."
     },
     {
         "latlng": {
@@ -101,15 +101,31 @@
             "lng": -123.73111724853517
         },
         "title": "Pirate Cove",
-        "text": ""
+        "text": "By far the most exciting entrance to an anchorage so far. The guide book had so many instructions about how to get in without hitting the many submerged rocks that we took two loops around outside the bay to scout things out. The southern half of the bay is a provincial park with good hiking trails, a water pump, and an information board about the cult that used to reside there."
     },
+    {
+        "latlng": {
+            "lat": 49.13543782228872,
+            "lng": -123.81729125976564
+        },
+        "title": "Dodd Narrows",
+        "text": "Dodd Narrows is about 100 ft wide at the narrowest, an is one of only two passages connecting Nanaimo Bay to the Gulf Islands. As such, most of the time the narrows are a white water river with large standing waves and currents over 10 mph. There's only 15 minutes around slack tide for all of the boats going too and from Nanaimo to pass through (from both directions). We left Pirate Cove early to try to hit the morning slack tide, and with the grace of a light breeze made it to the growing lineup of boats waiting for slack tide to go through the narrows. There were 20 or more waiting boats, which naturally organized into different groups to brave the narrows. Small powerboats with engine power and manuverability to spare went first, then the larger powerboats, then us with the sail boats, followed up by the commercial tugs towing log booms. Approaching from the south the channel gradually tightens and bends around so that you can't see the actual narrows until you're practically in the rapids. As we approached the constriction point in a single file line of boats the line slowed down and down until we were barely moving at all. I was very confused as to what was going on until we finally inched our way around the corner and saw the sailboat at the head of our procession stalled in the middle of the rapids, clearly at full throttle and making no perceptible headway against the onsaught of foaming water rushing through the 100ft wide gap between Mudge Island and Vancouver Island. Two boats ahead of us made it to the start of the rapids and quickly bailed, whipping as tight a u-turns as they could and flying past us with the rushing current to recoup at the back of the line of waiting boats. Seeing how they had faired I turned around before the channel got too narrow, and gladly went back to spin circles at the channel entrance and wait for the current to slack. Our second attempt proved more succsessfull, but even though the standing waves and whitewater had receded we still just managed to squeek through the narrows at a snails pace with the engine pegged at full throttle. Next time I'll take my cues from the comercial tugs, which had patiently hung back and waited for true slack while the clownfest unfolded in front of them."
+    },
+
     {
         "latlng": {
             "lat": 49.17317480149248,
             "lng": -123.92990112304689
         },
         "title": "Nanaimo, and the Duckling Gets its Wings",
-        "text": ""
+        "text": "Nanaimo Harbor is an unideal anchorage: exposed to prevailing southern winds, and located a half mile across a busy channel from the city of Nanaimo itself. Despite this there were hundereds of decrepit boats anchored in the bay, and a few wrecks washed up on shore from recent storms. My mom took the Nanaimo ferry back to the mainland and I was alone again. After deciding that $15 (Canadian) wasn't worth it to take the tiny passenger ferry from the state park where I was anchored to the city, I elected to row the duckling (my dinghy, so called for its diminutive size and bright yellow-orange paint) in the rain across the shipping channel to the port to drop off garbage and take a shower. Most people sailing the inside passage head north from Nanaimo to Texada Island and Desolation Sound, but I planned to head east across the Strait of Georgia to Vancouver."    },
+    {
+        "latlng": {
+            "lat": 49.247281264952036,
+            "lng": -123.55833679665136
+        },
+        "title": "Crossing The Strait of Georgia",
+        "text": "Depending on the route there 4 or 5 major obstacles on the inside passage; The Strait of Georgia is the first. Vancouver Island's size and proximity to the mainland causes strange and unintuitive things to happen with ocean currents: For weeks at a time the Strait of Georgia will have a continuous south flowing current, despite the changing tides. The winds blowing up from the Strait of Juan De Fuca to the south combine with the current to create steep and chaotic seastates that can change seemingly at random based on immense ridges and valleys hidden on the sea floor. I wasn't thrilled at the reality of making the crossing, which would be the furthest I had ever been from land (not in an airplane), alone on a small boat."
     },
     {
         "latlng": {

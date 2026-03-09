@@ -16,12 +16,27 @@ async function loadArrayFromJsonFile(filePath) {
   }
 }
 
+const usgsTopoMapTileServer = 'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}' //USGS topo basemap
+const openTopoMapTileServer = 'https://a.tile.opentopomap.org/{z}/{x}/{y}.png' //base map topo map (good for hiking)
+const googleSateliteTileServer = 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}' //Satelite base map
+const openStreetMapTileServer = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png' //Open street map base map
+const openSeaMapTileServer = 'http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png' //Nautical Symbols Overlay
+const wayMarkedTrailsTileServer = 'https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png' //Hiking Trails Overlay
+const localTileServer = './tiles/{z}/{x}/{y}.png' //My very own base map
+
 window.L_DISABLE_3D = true;
 const testMap = L.map('map').setView([48.5023, -122.8463], 11);
-const tiles = L.tileLayer('./tiles/{z}/{x}/{y}.png', {
-    maxZoom: 13,
+
+const baseTiles = L.tileLayer(googleSateliteTileServer, {
+    maxZoom: 18,
     minZoom: 6
 }).addTo(testMap);
+
+const overlayTiles = L.tileLayer(openSeaMapTileServer, {
+    maxZoom: 18,
+    minZoom: 6
+}).addTo(testMap);
+
 
 testMap.doubleClickZoom.disable();
 
